@@ -54,3 +54,5 @@ The final output will be formatted just like the input file (the input to the ma
 For example, one of your output lines will be formatted like this:      
 A C F 0.123456
 
+To run the program:
+[cloudera@quickstart workspace]$ hadoop jar Page_Rank.jar Page_Rank New_dir/input.txt PageRankOutput
